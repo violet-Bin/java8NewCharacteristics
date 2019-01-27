@@ -10,6 +10,8 @@ public interface MyInterface {
 
     void test();
 
+//    void test1();
+
     /**
      * 重写了Object类的public方法,接口的抽象方法数不会加一
      * @return
