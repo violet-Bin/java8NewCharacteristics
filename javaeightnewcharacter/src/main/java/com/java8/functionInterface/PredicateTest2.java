@@ -1,4 +1,4 @@
-package com.java8;
+package com.java8.functionInterface;
 
 import com.google.common.collect.Lists;
 
@@ -26,8 +26,9 @@ public class PredicateTest2 {
         predicateTest2.conditionFilter(list, item -> false);
         System.out.println(" ");
         predicateTest2.conditionFilter2(list, item -> item > 3, item -> item < 7);
-        System.out.println(" ");
+        System.out.println(" -");
         System.out.println(predicateTest2.isEqual("test").test("test"));
+        System.out.println(predicateTest2.isEqual("").test("test"));//不会报NullException
     }
 
     public void conditionFilter(List<Integer> list, Predicate<Integer> predicate) {

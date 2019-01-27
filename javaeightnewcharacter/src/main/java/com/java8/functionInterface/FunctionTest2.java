@@ -1,4 +1,4 @@
-package com.java8;
+package com.java8.functionInterface;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

@@ -1,8 +1,7 @@
-package com.java8;
+package com.java8.functionInterface;
 
 import com.google.common.collect.Lists;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
