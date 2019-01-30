@@ -1,4 +1,4 @@
-package com.java8.optiona;
+package com.java8.optional;
 
 import com.google.common.collect.Lists;
 
